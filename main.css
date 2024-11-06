@@ -1,0 +1,231 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f4f7f6;
+    line-height: 1.6;
+    padding: 0 20px;
+  }
+  
+  h1, h2, h3 {
+    color: #333;
+    text-align: center;
+  }
+  
+  /* Hero Section */
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    color:white;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    max-width: 600px;
+    text-align: center;
+  }
+  
+  header .button {
+    padding: 12px 30px;
+    color: #fff;
+    background-color: #ff6363;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  header .button:hover {
+    background-color: #ff4040;
+  }
+  
+  /* Section Titles */
+  section h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* About Section */
+  #about {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #f4f7f6;
+  }
+  
+  #about p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 1.2em;
+    color: #666;
+  }
+  
+  /* Projects Section */
+  #projects {
+    padding: 60px 0;
+    background-color: #fff;
+  }
+  
+  .project-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: transform 0.3s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .project-card img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .project-card h3 {
+    font-size: 1.5em;
+    margin: 15px;
+  }
+  
+  .project-card p {
+    font-size: 1em;
+    color: #666;
+    padding: 0 15px;
+    margin-bottom: 15px;
+  }
+  
+  .project-card a {
+    display: inline-block;
+    margin: 0 15px 15px;
+    color: #ff6363;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .project-card a:hover {
+    color: #ff4040;
+  }
+  
+  /* Skills Section */
+  #skills {
+    padding: 60px 0;
+    background-color: #f4f7f6;
+    text-align: center;
+  }
+  
+  #skills ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  #skills li {
+    display: inline-block;
+    margin: 10px 15px;
+    font-size: 1.5em;
+    color: #666;
+  }
+  
+  #skills li i {
+    color: #ff6363;
+    margin-right: 10px;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 60px 0;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  #contact form {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  #contact label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+  .card:hover{
+    transition: all.5s;
+  }
+  .card:hover
+  {
+    
+    transform: translateY(3%) ;
+  }
+  #contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  #contact button {
+    padding: 12px 30px;
+    background-color: #ff6363;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s;
+  }
+  
+  #contact button:hover {
+    background-color: #ff4040;
+  }
+  
+  /* Footer */
+  footer {
+    padding: 20px 0;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  footer p {
+    margin-bottom: 10px;
+  }
+ 
+  footer .social-links a {
+    margin: 0 10px;
+    color: #fff;
+    font-size: 1.5em;
+    transition: color 0.3s;
+  }
+  
+  footer .social-links a:hover {
+    color: #ff6363;
+  }
+  
